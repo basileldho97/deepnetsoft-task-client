@@ -1,0 +1,23 @@
+.menu {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .menu-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .menu-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 400px;
+    background: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #28a745;
+  }
+  

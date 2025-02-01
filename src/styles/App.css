@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.menu-page {
+  text-align: center;
+}
+
+.menu-tabs button {
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu-item {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+.menu-page {
+  text-align: center;
+  margin: 20px;
+}
+
+.menu-tabs button {
+  margin: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.menu-tabs button:hover {
+  background-color: #0056b3;
+}
+
+.add-menu-item {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.add-menu-item form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-menu-item input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-menu-item button {
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-menu-item button:hover {
+  background-color: darkgreen;
+}
